@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keylogger Login</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #D9EBFF; /* Light Pastel Baby Blue */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0; 
+    }
+    .login-box {
+        background: #FFFFFF;
+        padding: 30px 40px;
+        border-radius: 20px;
+        width: 330px;
+        text-align: center;
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+        color: #3A6EA5;
+        margin-bottom: 25px;
+    }
+    input {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        border: 1px solid #BFD4E9;
+        border-radius: 10px;
+        outline: none;
+    }
+    input:focus {
+        border-color: #3A6EA5;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #3A6EA5;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 12px;
+        transition: 0.3s;
+    }
+    button:hover {
+        background-color: #2D5684;
+    }
+</style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Welcome</h2>
+        <input type="text" placeholder="Enter Username">
+        <input type="password" placeholder="Enter Password">
+        <button onclick="window.location.href='security.html'">Login</button>
+    </div>
+</body>
+</html>
